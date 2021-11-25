@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    background-color: rgb(46, 45, 51);
+
+    width: 100vw;
+}
+
+
+#header{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#header h1{
+    margin: 0px
+}
+
+#embleme{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+#embleme img{
+    height: 100%;
+}
+
+#maisons{
+    margin-top: 25px;
+    display: flex;
+}
+
+
+.maisonBanner{
+    width: 100%;
+    margin: 0px 20px;
+    background-color: brown;
+    min-height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maisonDirecteur{
+    color: white;
+    text-align: center;
+    margin: 0px
+}
+
+.GRYFFONDOR{
+    background-color: #541714;
+}
+
+.SERPENTARD{
+    background-color: #243921;
+}
+
+.POUFSOUFFLE{
+    background-color: #b9802b;
+}
+
+.SEGPA{
+    background-color: #440d4f;
+}
+
+.SERDAIGLE{
+    background-color: #0d3d4f;
+}
+
+.FullStack-2022{
+    background-color: #4f300d;
+}
+
+.maisonEmbleme{
+    margin-top: 20px;
+    width: 90%;
+    height: 300px;
+}
+
+.maisonScore{
+    margin-top: 10px;
+}
+
+form{
+    width: 50%;
+    height: 100%;
+
+    margin: 50px auto;
+    border-radius: 5px;
+
+
+    padding: 50px; 
+
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rowForm{
+    display: flex;
+    justify-content: center;
+}
+label{
+    text-align: right;
+}
